@@ -124,7 +124,7 @@ function AirportListContent() {
   return (
     <McpUseProvider>
       <AppsSDKUIProvider linkComponent={Link}>
-        <div className="p-4 space-y-4 bg-surface" data-theme={theme}>
+        <div className="p-4 space-y-4 bg-surface h-[600px] overflow-y-auto" data-theme={theme}>
           {/* Header */}
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-bold text-default">Airports</h1>

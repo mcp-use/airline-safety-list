@@ -311,7 +311,7 @@ function AirlineListContent() {
   }
 
   return (
-    <div data-theme={theme} className="p-4">
+    <div data-theme={theme} className="p-4 h-[600px] overflow-y-auto">
       {/* Header */}
       <div className="mb-4">
         <div className="flex items-baseline gap-2">

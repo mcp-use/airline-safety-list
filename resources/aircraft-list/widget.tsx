@@ -252,7 +252,7 @@ function AircraftListWidget() {
   return (
     <McpUseProvider>
       <AppsSDKUIProvider linkComponent={Link}>
-        <div className="p-4 space-y-4">
+        <div className="p-4 space-y-4 h-[600px] overflow-y-auto">
           {/* Header */}
           <div className="flex items-center justify-between">
             <h2 className="text-default text-lg font-bold">Aircraft Models</h2>
